@@ -12,7 +12,7 @@ def Index():
 def get_summary():
     if req.method=="POST":
         API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn"
-        headers = {"Authorization": f"Bearer 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"}
+        headers = {"Authorization": "Bearer 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"}
 
         def query(payload):
             response = requests.post(API_URL, headers=headers, json=payload)
