@@ -19,7 +19,7 @@ def get_summary():
             return response.json()
             
         input_text = req.form["input_text"] 
-        max_len = 200
+        max_len = 100
         min_len = 10
         
         output = query({
